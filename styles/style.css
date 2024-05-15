@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+ul {
+  text-decoration: none;
+  display: flex;
+}
+li {
+  padding: 15px 10px;
+  list-style: none;
+}
+.container {
+  width: 100%;
+  min-height: 500px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./../assets/fondo-span.png");
+  background-size: cover; /* Ajusta la imagen para cubrir toda el área */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-position: center center;
+  border-radius: 1em;
+  box-shadow: 0 0 10px rgba(152, 7, 255, 0.5);
+  padding: 50px;
+}
+.btn {
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(91, 113, 211);
+  cursor: pointer;
+  margin: 10px;
+}
+.btn > a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
