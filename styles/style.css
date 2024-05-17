@@ -16,7 +16,7 @@ li {
 
   list-style: none;
   border-radius:5px;
-  cursor: pointer;
+  cursor: pointer;Z
 }
 li:hover{
   background-color: rgba(171, 168, 168, 0.327);
