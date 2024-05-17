@@ -1,0 +1,20 @@
+h2 {
+    color:  rgb(87, 216, 173);;
+    font-size: 60px;
+    text-align: center;
+}
+h3 {
+    color:  rgb(87, 216, 173);;
+    font-size: 40px;
+    text-align: center;
+}
+p{
+    font-size: 30px;
+    text-align: center;
+}
+.container {
+    text-align: center; /* Centra la imagen horizontalmente */
+}
+.container img {
+    width: 300px; /* Ajusta el ancho de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */}
