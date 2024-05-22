@@ -1,36 +1,3 @@
-alert{'Servicios'
-
-}
-document.addEventListener('DOMContentLoaded', function() {
-    const odontopediatria = document.getElementById('odontopediatria');
-
-    odontopediatria.addEventListener('click', function() {
-        window.location.href = 'odontopediatria.html';
-    });
-});
-
-document.addEventListener('DOMContentLoaded', function() {
-    const masInfoLink = document.querySelector('.mas-info-link');
-
-    masInfoLink.addEventListener('click', function(event) {
-        event.preventDefault(); 
-        window.open('odontopediatria.html', '_blank');// Evita que se abra la página directamente
-        
-
-    });
-});
-
-;
-
-
-
-
-
-
-
-
-
-
 
 
 
