@@ -170,7 +170,15 @@ footer{
   background-color:#3498DB;
   margin: 0 15px;
   border-radius: 100px;
+  transition: 0.4s;
  }
+ .contactos > a:hover{
+   
+    transition: 0.5s;
+    box-shadow: 0 0 10px rgba(39, 60, 47, 0.5);
+  }
+ 
+ 
 .contactos{
   display: flex;
   justify-content: center;
