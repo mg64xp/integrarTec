@@ -1,10 +1,12 @@
 h2 {
-  color: #3a5d49;
+  color: #005073;
+  
   font-size: 45px;
   text-align: center;
 }
 h3 {
-  color: rgb(87, 216, 173);
+  color: #005073;
+  
   font-size: 40px;
   text-align: center;
 }
@@ -28,7 +30,7 @@ p {
 .mas-info-link {
   display: inline-block;
   padding: 5px 10px;
-  background-color: rgb(87, 216, 173);
+  background-color: rgb(143, 108, 108);
   color: white;
   text-decoration: none;
   border-radius: 50%;
@@ -38,7 +40,7 @@ p {
 }
 
 .mas-info-link:hover {
-  background-color: rgb(67, 186, 153);
+  background-color: rgb(32, 31, 31);
 }
 
 .servicio:hover .mas-info-link {
@@ -59,7 +61,7 @@ p {
 
 .mas-info-link {
   border: 0;
-  background-color: rgb(87, 216, 173);
+  background-color: #f46959d6;
 
   border-radius: 100px;
   font-size: 14px;
@@ -71,7 +73,7 @@ p {
 }
 
 .mas-info-link:hover {
-  background-color: rgb(67, 186, 153);
+  background-color: rgb(100, 109, 106);
 }
 
 
@@ -99,7 +101,8 @@ p {
 
 #consultas h2 {
   text-align: center;
-  color: rgb(87, 216, 173);
+  color: #005073;
+  
 }
 
 .form-group {
@@ -121,7 +124,7 @@ p {
 }
 
 button[type="submit"] {
-  background-color: rgb(87, 216, 173);
+  background-color: #005073;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -130,7 +133,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: rgb(67, 176, 143);
+  background-color: rgb(36, 35, 35);
 }
 
 /* Espaciado en la última imagen */
@@ -162,9 +165,10 @@ ul {
   cursor: pointer;
 }
 #nav-links li:hover {
-  background-color: rgba(171, 168, 168, 0.327);
+    background-color:#005073;
+          
   transition: 0.5s;
-  box-shadow: 0 0 10px rgba(39, 60, 47, 0.5);
+            background-color:#005073
 }
 #nav-links li > a {
   text-decoration: none;
@@ -178,7 +182,8 @@ ul {
   text-align: center;
 }
 .span-container {
-  background-color: rgba(0, 0, 0, 0.388);
+            background-color:#005073;
+            ;
   color: white;
   padding: 20px;
   margin: 5em;
@@ -213,7 +218,8 @@ footer {
 
 #nav-bar {
   overflow: hidden;
-  background-color: rgba(66, 60, 60, 0.695);
+            background-color:#005073;
+          
 }
 
 #nav-bar ul {

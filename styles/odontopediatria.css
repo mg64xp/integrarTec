@@ -1,13 +1,86 @@
 h1 {
-    color:  rgb(87, 216, 173);;
+    color: rgb(32, 32, 32);
     font-size: 70px;
     text-align: center;}
-    
+  
+   
+
     p{
     font-size: 30px;
     margin: 10px;
     
 }
+
+
+#nav-bar {
+    overflow: hidden;
+              background-color:#005073;
+            
+  }
+  
+  #nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 600px) {
+    #nav-bar ul {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+    }
+    .container {
+      margin: 15px;
+      padding: 10px;
+    }
+    .span-container {
+      padding: 10px;
+      margin: 10px;
+    }
+    .tittle {
+      font-size: 35px;
+    }
+    p {
+      font-size: small;
+    }
+    .icon {
+      padding: 20px;
+    }
+    #nav-bar ul.show {
+      display: flex;
+    }
+  
+    #nav-bar li {
+      width: 100%;
+    }
+  
+    .menu-icon {
+      display: flex;
+    }
+  }
+  
+
+
+
+
+
+          
+      
+
+
+
+
+
+
 
 
     body {
@@ -77,7 +150,7 @@ h1 {
 
 
     .btn {
-        background-color: rgb(87, 216, 173);
+        background-color: rgb(160, 61, 119);
         color: white;
         padding: 10px 20px;
         text-decoration: none;
@@ -88,6 +161,21 @@ h1 {
     }
     
     .btn:hover {
-        background-color: rgb(104, 190, 162);
+        background-color: rgb(122, 131, 128);
     }
+
+    .btn {
+        padding: 15px 15px;
+        margin: 20px 0;
+        max-width: 300px;
+        border: none;
+        border-radius: 10px;
+        background-color: #f46959d6;
+        cursor: pointer;
+        color:white;
+      
+      
+      }
     
+
+  
