@@ -1,4 +1,8 @@
+function deleteLocalStore(){
+    localStorage.clear();
+    window.location.reload();
 
+}
 // Función para manejar el almacenamiento en LocalStorage
 function manejarFechaTurno() {
     const fechaInput = document.getElementById('fecha');
@@ -46,3 +50,4 @@ document.getElementById('turno-form').addEventListener('submit', function(event)
         ocultarFormulario();
     }
 });
+

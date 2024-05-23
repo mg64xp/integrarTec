@@ -5,11 +5,12 @@
  
 }
 body {
-  background-color:rgb(200, 200, 200);
+  background-color:#F5F5F5 ;
   font-family: Arial, sans-serif;
   position: relative;
   min-height: 100vh;
 }
+
 ul {
   text-decoration: none;
   display: flex;
@@ -37,6 +38,7 @@ ul {
 .tittle{
   font-size: 3em;
   text-align: center;
+  color: #333333;
 }
 .span-container{
   background-color:rgba(0, 0, 0, 0.388);
@@ -46,34 +48,42 @@ ul {
 }
 .container {
 
-  flex-direction: column;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+
+  align-items: flex-start;
   background-image: url("./../assets/fondo-span.png");
   background-size: cover; /* Ajusta la imagen para cubrir toda el área */
   background-repeat: no-repeat;
   background-position: center center;
   border-radius: 1em;
-  box-shadow: 0 0 10px rgba(39, 60, 47, 0.5);
+  box-shadow: 0 0 10px rgba(173, 232, 196, 0.5);
   margin: 60px;
   gap: 60px;
-  padding: 25px 0;
+  padding: 25px 15px;
+  font-size: 1.1rem;
+}
+.container > div{
+  display: flex;
+  flex-direction: column;
 
 }
 .btn {
-  width: 100px;
-  height: 40px;
+  padding: 15px 15px;
+  margin: 20px 0;
+  max-width: 300px;
   border: none;
   border-radius: 10px;
-  background-color: rgb(91, 113, 211);
+  background-color: #f46959d6;
   cursor: pointer;
-  margin: 10px;
+  color:white;
+
+
 }
 footer{
-  position: absolute;
-  bottom: 0;
+  color: white ;
   width: 100%;
+  background-color:#005073;
 }
 .info-footer{
   text-align: center;
@@ -85,13 +95,13 @@ footer{
 }
 .btn > a {
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: white;
 }
 
 
 #nav-bar {
   overflow: hidden;
-  background-color:rgba(66, 60, 60, 0.695);
+  background-color:#005073;
 }
 
 #nav-bar ul {
@@ -148,4 +158,25 @@ footer{
       display: flex;
   }
 }
+.contactos > a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
 
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding:  15px 30px ;
+  background-color:#3498DB;
+  margin: 0 15px;
+  border-radius: 100px;
+ }
+.contactos{
+  display: flex;
+  justify-content: center;
+  margin: 35px 0;
+
+}
+.contactos i{
+  color:#bbfadd;
+}
